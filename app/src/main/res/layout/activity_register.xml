@@ -10,6 +10,94 @@
     android:layout_gravity="center_horizontal"
     android:orientation="vertical">
 
+    <EditText
+        android:id="@+id/id_bimbel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/textfield"
+        android:hint="       Masukkan ID bimbel anda"
+        android:textSize="50px"
+        android:minHeight="48dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/gray"
+        android:fontFamily="@font/pjs_m"
+        android:inputType="number"
+        />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/textfield"
+        android:hint="       Masukkan email anda"
+        android:textSize="50px"
+        android:minHeight="48dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/gray"
+        android:fontFamily="@font/pjs_m"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="20dp"
+        />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/textfield"
+        android:hint="       Masukkan nama anda"
+        android:textSize="50px"
+        android:minHeight="48dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/gray"
+        android:fontFamily="@font/pjs_m"
+        android:inputType="text"
+        android:layout_marginTop="20dp"
+        />
+
+    <EditText
+        android:id="@+id/reg_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/textfield"
+        android:hint="       Masukkan password anda"
+        android:textSize="50px"
+        android:minHeight="48dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/gray"
+        android:fontFamily="@font/pjs_m"
+        android:inputType="textPassword"
+        android:layout_marginTop="20dp"
+        />
+
+    <EditText
+        android:id="@+id/reg_conpas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/textfield"
+        android:hint="       Masukkan password anda"
+        android:textSize="50px"
+        android:minHeight="48dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/gray"
+        android:fontFamily="@font/pjs_m"
+        android:inputType="text"
+        android:layout_marginTop="20dp"
+        />
+
+    <Button
+        android:id="@+id/reg_confirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:backgroundTint="@color/lime"
+        android:textColor="@color/black"
+        android:textAllCaps="false"
+        android:letterSpacing=".0"
+        android:fontFamily="@font/pjs_bold"
+        android:layout_marginTop="20dp"
+        />
+
+
 
 
 </LinearLayout>

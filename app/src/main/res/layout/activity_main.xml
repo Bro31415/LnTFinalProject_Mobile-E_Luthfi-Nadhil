@@ -9,25 +9,32 @@
     android:background="@color/black"
     android:layout_gravity="center_horizontal"
     android:orientation="vertical"
-
     >
 
     <EditText
         android:id="@+id/logUname"
+        android:background="@drawable/textfield"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Username"
         android:textSize="50px"
-        android:textColorHint="@color/white"
+        android:minHeight="48dp"
+        android:hint="    Username"
+        android:fontFamily="@font/pjs_m"
+        android:textColorHint="@color/gray"
+        android:layout_marginBottom="20dp"
         />
 
     <EditText
-        android:id="@+id/logPass"
+        android:id="@+id/password"
+        android:background="@drawable/textfield"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Password"
         android:textSize="50px"
-        android:textColorHint="@color/white"
+        android:minHeight="48dp"
+        android:hint="    Password"
+        android:fontFamily="@font/pjs_m"
+        android:textColorHint="@color/gray"
+        android:layout_marginBottom="20dp"
         />
 
     <Button
@@ -35,6 +42,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Login"
+        android:backgroundTint="@color/lime"
+        android:textColor="@color/black"
+        android:textAllCaps="false"
+        android:letterSpacing=".0"
+        android:fontFamily="@font/pjs_bold"
         />
 
     <Button
@@ -42,6 +54,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Register"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        android:textAllCaps="false"
+        android:letterSpacing=".0"
+        android:fontFamily="@font/pjs_m"
         />
 
 </LinearLayout>
