@@ -6,8 +6,13 @@
         <entry key="..\:/Users/Luthfi/AndroidStudioProjects/FinalProject/app/src/main/res/drawable/textfield.xml" value="0.161" />
         <entry key="..\:/Users/Luthfi/AndroidStudioProjects/FinalProject/app/src/main/res/font/fontfam.xml" value="0.27897435897435896" />
         <entry key="..\:/Users/Luthfi/AndroidStudioProjects/FinalProject/app/src/main/res/layout/activity_main.xml" value="0.264" />
-        <entry key="..\:/Users/Luthfi/AndroidStudioProjects/FinalProject/app/src/main/res/layout/activity_menu.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Luthfi/AndroidStudioProjects/FinalProject/app/src/main/res/layout/activity_menu.xml" value="0.25" />
         <entry key="..\:/Users/Luthfi/AndroidStudioProjects/FinalProject/app/src/main/res/layout/activity_register.xml" value="0.1" />
+        <entry key="..\:/Users/Luthfi/AndroidStudioProjects/FinalProject/app/src/main/res/layout/fragment_area_calc.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Luthfi/AndroidStudioProjects/FinalProject/app/src/main/res/layout/fragment_counter.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Luthfi/AndroidStudioProjects/FinalProject/app/src/main/res/layout/fragment_home.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Luthfi/AndroidStudioProjects/FinalProject/app/src/main/res/layout/fragment_volume_counter.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Luthfi/AndroidStudioProjects/FinalProject/app/src/main/res/menu/bottom_bar.xml" value="0.365625" />
       </map>
     </option>
   </component>

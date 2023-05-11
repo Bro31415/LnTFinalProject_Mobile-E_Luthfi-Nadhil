@@ -11,7 +11,7 @@ import android.widget.Toast;
 
 public class RegisterActivity extends AppCompatActivity {
     EditText reg_id, reg_email, reg_name, reg_password, reg_conpas;
-    Button confirmReg;
+    Button confirmReg, returnLog;
     SharedPreferences sp;
 
     @Override
@@ -24,6 +24,7 @@ public class RegisterActivity extends AppCompatActivity {
         reg_name = findViewById(R.id.name);
         reg_password = findViewById(R.id.reg_password);
         reg_conpas = findViewById(R.id.reg_conpas);
+        returnLog = findViewById(R.id.returnLog);
         confirmReg = findViewById(R.id.reg_confirm);
         sp = getSharedPreferences("account", MODE_PRIVATE);
 
@@ -38,7 +39,7 @@ public class RegisterActivity extends AppCompatActivity {
             Toast.makeText(RegisterActivity.this, "Anda telah terdaftar di sistem!", Toast.LENGTH_SHORT).show();
 
         });
-        confirmReg.setOnClickListener(v -> {
+        returnLog.setOnClickListener(v -> {
             Intent confirmRegIntent = new Intent(RegisterActivity.this, MainActivity.class);
             startActivity(confirmRegIntent);
         });

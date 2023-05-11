@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment"
+    android:layout_gravity="center"
+    android:paddingLeft="40dp"
+    android:paddingRight="40dp"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="Greetings! Pick an option from below"
+        android:fontFamily="@font/pjs_m"
+        />
+
+    <LinearLayout
+        android:id="@+id/buttonWrapper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="205dp"
+        android:background="@color/yourcolor"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/counterbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="Counter"
+            android:backgroundTint="@color/lime"
+            android:textColor="@color/black"
+            android:textAllCaps="false"
+            android:letterSpacing=".0"
+            android:fontFamily="@font/pjs_bold"
+            />
+
+        <Button
+            android:id="@+id/areacalcbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="Area Calculator"
+            android:backgroundTint="@color/lime"
+            android:textColor="@color/black"
+            android:textAllCaps="false"
+            android:letterSpacing=".0"
+            android:fontFamily="@font/pjs_bold"
+            />
+
+        <Button
+            android:id="@+id/volumecalcbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="Volume Calculator"
+            android:backgroundTint="@color/lime"
+            android:textColor="@color/black"
+            android:textAllCaps="false"
+            android:letterSpacing=".0"
+            android:fontFamily="@font/pjs_bold"
+            />
+    </LinearLayout>
+</RelativeLayout>

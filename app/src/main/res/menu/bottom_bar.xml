@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/bm_home"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/bm_counter"
+        android:icon="@drawable/ic_baseline_format_list_numbered_24"
+        android:title="Counter"
+        />
+
+    <item
+        android:id="@+id/bm_areacalc"
+        android:icon="@drawable/ic_baseline_square_foot_24"
+        android:title="Area Calculator"
+        />
+
+    <item
+        android:id="@+id/bm_volumecalc"
+        android:icon="@drawable/ic_baseline_calculate_24"
+        android:title="Volume Calculator" />
+
+     <item
+         android:id="@+id/bm_settings"
+         android:icon="@drawable/ic_baseline_settings_24"
+         android:title="Settings" />
+
+</menu>
